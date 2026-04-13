@@ -1,7 +1,11 @@
 {
-  "name": "barberflow-ts",
+  "name": "barberflowts",
   "private": true,
   "version": "1.0.0",
+  "engines": {
+    "node": "24.x"
+  }
+}
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -39,8 +43,4 @@
     "tsx": "^4.21.0",
     "typescript": "~5.8.2",
     "vite": "^6.2.0"
-  },
-  "engines": {
-    "node": "24.x"
-  }
 }
